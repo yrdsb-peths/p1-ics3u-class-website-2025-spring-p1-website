@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&display=swap');
+
 /* styles.css */
 :root {
     --bg-color: white;
@@ -18,11 +20,37 @@
 
 body {
     background-color: var(--bg-color);
+
     color: var(--text-color);
     transition: background 0.3s, color 0.3s;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding:0;
+
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.content {
+    padding:20px;
+    text-align: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
 }
 
 button {
@@ -32,4 +60,24 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.cheese {
+    padding-top:2rem
+}
+.btn-pack {
+    padding-top:2rem;
+}
+
+.btn {
+    border-radius: 14px;
+    background-color: rgb(30, 0, 75);
+    color:rgb(236, 236, 236);
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+
 }
